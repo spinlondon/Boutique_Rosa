@@ -1,0 +1,12 @@
+div#menu ul li  {display: inline-block;}
+div#menu ul li a
+{
+	text-decoration: none;
+	background: #F00A8B; 
+	padding: 10px 15px;
+	color: #FFFFFF;
+	border-radius: 15px;
+}
+div#logo a{display: inline-block; background: yellow;}
+div.cabecalho{display: inline-block}
+div#menu ul li a:hover{background: #F8D0F0; color:#F00A8B;}
