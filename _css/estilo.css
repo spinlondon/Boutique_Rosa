@@ -1,12 +1,54 @@
-div#menu ul li  {display: inline-block;}
-div#menu ul li a
+.fleft{float: left;}
+.fright{float:right;}
+.clear{clear: both;}
+
+.w100{width: 100%;}
+
+.w60{width: 60%;}
+.w40{width: 40%;}
+
+.w70{width: 70%;}
+.w30{width: 30%;}
+
+.w33{width: 33.3%;}
+
+.w80{width: 80%;}
+.w20{width: 20%;}
+
+div.cabecalho{display: inline-block}
+
+div.barra
+{
+	display: inline-block; 
+	background: white; 
+	border:solid #ED1E79; 
+	border-radius: 15px; 
+	padding: 5px;
+	text-align: center;
+}
+div.barra a#buscar {text-decoration: none;text-align: center; color:white;
+display: block; background: #ED1E79; border-radius: 15px;}
+
+div.barra a#buscar:hover{background: #A81A5E;}
+
+
+div#logo a{display: block; background: yellow; padding: 20px;}
+
+div#menu ul li  {display: inline-block; text-align: center; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; text-shadow: 1px 1px 2px black;}
+
+div#menu ul 
 {
 	text-decoration: none;
-	background: #F00A8B; 
-	padding: 10px 15px;
+	background: #ED1E79; 
+	padding: 12px 10px;
 	color: #FFFFFF;
 	border-radius: 15px;
+	text-align: center ;
 }
-div#logo a{display: inline-block; background: yellow;}
-div.cabecalho{display: inline-block}
-div#menu ul li a:hover{background: #F8D0F0; color:#F00A8B;}
+
+div#menu ul li :hover{background: #A81A5E; border-radius: 15px; display: block; }
+
+div#menu ul li a{text-decoration: none;color:white; display:block; padding: 0px 55px;}
+
+
+
